@@ -1,4 +1,5 @@
 import requests
+import hashlib
 
 
 def request_api_data(quary_chars):
@@ -9,4 +10,10 @@ def request_api_data(quary_chars):
     return response
 
 
-request_api_data("C7137")
+def pwned_api_checker(password):
+    sha1_password = hashlib.sha1(password.encode("utf-8")).hexdigest().upper()
+    return sha1_password
+
+print(pwned_api_checker("40408080"))
+
+
