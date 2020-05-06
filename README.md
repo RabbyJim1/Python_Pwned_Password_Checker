@@ -17,6 +17,6 @@ A "breach" is an incident where data is inadvertently exposed in a vulnerable sy
 
 -> run the commend in your 'terminal' or 'cmd' or 'PowerShell'
 
-      $ python main.py password
+      $ python main.py password password123
       
-      # In your case, you have to write your password instead of "password"
+      # In your case, you have to write your passwords instead of "password", "password123"
