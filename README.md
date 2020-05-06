@@ -10,8 +10,13 @@ A "breach" is an incident where data is inadvertently exposed in a vulnerable sy
 
 # How to use this tool?
 -> Install python in your system.
+
 -> Clone this project. (E.g: git clone https://github.com/RabbyJim1/Python-Password-Checker.git)
+
 -> go to main.py file location (E.g: cd .\Python-Password-Checker\Password Checker\venv)
+
 -> run the commend in your 'terminal' or 'cmd' or 'PowerShell'
-      # python main.py password
-      In your case, you have to write your password instead of "password"
+
+      $ python main.py password
+      
+      # In your case, you have to write your password instead of "password"
