@@ -1,4 +1,4 @@
-# Python-Password-Checker
+# Python_Pwned_Password_Checker
 
 This tool is able to check your password is pwned or not. It might be increase your password security.
 
